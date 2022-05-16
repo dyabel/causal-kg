@@ -145,7 +145,7 @@ def build_dataset(config, ratio, charge, model_name, seed):
     factor_num = config.factor_num
     pad_size = config.pad_size
 
-    with open('data/' + filename, 'rb') as f:
+    with open('data/oil/' + filename, 'rb') as f:
         data = pkl.load(f)
 
     strength = data['strength']
@@ -179,6 +179,7 @@ def build_dataset(config, ratio, charge, model_name, seed):
 
     if not os.path.exists('saved_dict/'):
         os.makedirs('saved_dict/')
+    # print(vocab, train, dev, test)
     return vocab, train, dev, test
 
 

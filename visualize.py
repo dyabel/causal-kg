@@ -2,7 +2,7 @@ import pydot
 import matplotlib.pyplot as plt
 import networkx as nx
 
-graph = pydot.graph_from_dot_file('data/oil/graph_19_oil_1_2.dot')[0]
+graph = pydot.graph_from_dot_file('data/oil/graph_37_oil_1_2.dot')[0]
 graph.write_png('oil.png')
 # graph = pydot.graph_from_dot_file('data/graph_37_II-M-N_1_0.dot')[0]
 # graph.write_png('data/II-M-N.png')
