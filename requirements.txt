@@ -1,0 +1,10 @@
+gensim==3.8.3
+thulac
+dowhy
+sklearn
+pydot
+networkx
+pandas
+numpy
+pgmpy
+git+https://github.com/boudinfl/pke.git
